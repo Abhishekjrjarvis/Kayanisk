@@ -1,0 +1,244 @@
+.nav-popup {
+  background-color: rgb(204, 0, 102);
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.inner-badge {
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.nav-popup p {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navs {
+  padding: 17px;
+  height: 70px;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0px 2px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.img-brand {
+  width: 160px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.trends h6 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.trends h4 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.line {
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  width: 5%;
+  height: 1px;
+}
+
+.images-display {
+  padding: 7px;
+}
+
+.images-display h3 {
+  padding: 2px;
+  font-size: 16px;
+}
+.image-dis {
+  cursor: pointer;
+  width: 270px;
+  height: 350px;
+}
+
+.images-price {
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
+.image-price-right {
+  color: #f50606;
+}
+
+.loads {
+  text-align: center;
+}
+
+button {
+  width: 12%;
+  padding: 0.7em;
+  border-radius: 2.5em;
+  font-weight: 600;
+  border: 2px solid black;
+}
+
+button:hover {
+  border: 2px solid aqua;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.icons-show {
+  font-size: 24px;
+}
+
+.text-show {
+  font-weight: 700;
+}
+
+.text {
+  margin-left: 2.7em;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(0, 169, 221, 0.5);
+}
+
+.logo {
+  color: rgba(0, 169, 221, 0.5);
+}
+
+.footer {
+  padding: 3.1em;
+  background-color: rgba(228, 228, 228, 0.4);
+}
+
+.footer-links {
+  margin: 0px 50px;
+  padding: 5px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+  padding: 0.5em;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  list-style-type: none;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+.menu-link {
+  color: rgb(0, 0, 0);
+}
+
+.footer-menu-link {
+  margin-top: 10px;
+}
+.subs {
+  border: 2px solid black;
+  border-radius: 2.5em;
+  padding: 1em;
+}
+
+.subs input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.subs-dis {
+  display: inline-block;
+  width: 40%;
+  padding: 0.7em;
+  border-radius: 2.5em;
+  font-weight: 600;
+  background-color: black;
+  color: #fff;
+}
+
+.subs-dis:hover {
+  border: 2px solid black;
+  background-color: black;
+}
+
+.footer-inner-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-inner {
+  cursor: pointer;
+}
+
+.scale {
+  animation: 1.25s cubic-bezier(0.26, 0.54, 0.32, 1) forwards ani-fadeIn;
+}
+
+.visit {
+  z-index: 2;
+  top: 40%;
+  left: 48%;
+  position: absolute;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.visit button {
+  border: none;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 150px;
+}
+
+.offer {
+  color: #fff;
+  padding: 0.95em;
+  font-weight: 600;
+  border-radius: 50%;
+  background-color: rgb(255, 94, 0);
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  top: 0.9em;
+  right: 2.8em;
+  position: absolute;
+  cursor: pointer;
+}
+
+.wishlist {
+  font-size: 20px;
+  color: #fff;
+  z-index: 2;
+  top: 0.6em;
+  left: 1.5em;
+  position: absolute;
+  cursor: pointer;
+}
+
+.col-6 {
+  transition: animation 2s;
+}
+
+.col-6 img {
+  cursor: pointer;
+  animation: 1.25s cubic-bezier(0.26, 0.54, 0.32, 1) forwards ani-fadeIn;
+  --webkit-animation: 1.25s cubic-bezier(0.26, 0.54, 0.32, 1) forwards
+    ani-fadeIn;
+}
